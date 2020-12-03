@@ -8,12 +8,18 @@
         Title="ReshenieUravnenia" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="60,70,0,0" Text="Запишите уравнение:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Normal" FontFamily="Gloucester MT Extra Condensed"/>
-        <TextBox HorizontalAlignment="Left" Margin="60,155,0,0" Text="a" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Margin="153,155,0,0" Text="b" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Margin="234,155,0,0" Text="c" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
+        <TextBox x:Name="Abox" HorizontalAlignment="Left" Margin="60,155,0,0" Text="a" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
+        <TextBox x:Name="B_box" HorizontalAlignment="Left" Margin="153,155,0,0" Text="b" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
+        <TextBox x:Name="C_box" HorizontalAlignment="Left" Margin="234,155,0,0" Text="c" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="112,157,0,0" Text="x^2 + " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="206,157,0,0" Text="x + " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="289,155,0,0" Text="= 0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,230,0,0" Text="D =" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="Dres" HorizontalAlignment="Left" Margin="95,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="X1res" HorizontalAlignment="Left" Margin="201,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="X2res" HorizontalAlignment="Left" Margin="308,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
+        <TextBlock HorizontalAlignment="Left" Margin="160,230,0,0" Text="x1 =" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="267,230,0,0" Text="x2 =" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
 
     </Grid>
 </Window>
