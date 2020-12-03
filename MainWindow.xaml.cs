@@ -24,5 +24,18 @@ namespace ReshenieUravnenia
         {
             InitializeComponent();
         }
+
+        private void ResButton_Click(object sender, RoutedEventArgs e)
+        {
+            double a = Convert.ToSingle(Abox.Text);
+            double b = Convert.ToSingle(Bbox.Text);
+            double c = Convert.ToSingle(Cbox.Text);
+            double D = b*b-4*a*c;
+            double X1 = (-b + Math.Sqrt(D)) / (2*a);
+            double X2 = (-b - Math.Sqrt(D)) / (2 * a);
+
+            
+
+        }
     }
 }

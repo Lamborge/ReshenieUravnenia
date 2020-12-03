@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReshenieUravnenia"
         mc:Ignorable="d"
-        Title="ReshenieUravnenia" Height="450" Width="800">
+        Title="ReshenieUravnenia" Height="450" Width="400">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="60,70,0,0" Text="Запишите уравнение:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Normal" FontFamily="Gloucester MT Extra Condensed"/>
         <TextBox x:Name="Abox" HorizontalAlignment="Left" Margin="60,155,0,0" Text="a" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
@@ -20,6 +20,7 @@
         <TextBox x:Name="X2res" HorizontalAlignment="Left" Margin="308,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45"/>
         <TextBlock HorizontalAlignment="Left" Margin="160,230,0,0" Text="x1 =" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Margin="267,230,0,0" Text="x2 =" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="ResButton" Content="Решить" HorizontalAlignment="Left" Margin="146,338,0,0" VerticalAlignment="Top" FontSize="24" Width="113" Click="ResButton_Click"/>
 
     </Grid>
 </Window>
