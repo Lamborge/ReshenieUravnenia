@@ -9,8 +9,8 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="60,70,0,0" Text="Запишите уравнение:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Normal" FontFamily="Gloucester MT Extra Condensed"/>
         <TextBox x:Name="Abox" HorizontalAlignment="Left" Margin="60,155,0,0" Text="a" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
-        <TextBox x:Name="B_box" HorizontalAlignment="Left" Margin="153,155,0,0" Text="b" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
-        <TextBox x:Name="C_box" HorizontalAlignment="Left" Margin="234,155,0,0" Text="c" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
+        <TextBox x:Name="Bbox" HorizontalAlignment="Left" Margin="153,155,0,0" Text="b" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
+        <TextBox x:Name="Cbox" HorizontalAlignment="Left" Margin="234,155,0,0" Text="c" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="23" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="112,157,0,0" Text="x^2 + " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="206,157,0,0" Text="x + " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="289,155,0,0" Text="= 0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>

@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace ReshenieUravnenia
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -27,14 +24,23 @@ namespace ReshenieUravnenia
 
         private void ResButton_Click(object sender, RoutedEventArgs e)
         {
-            double a = Convert.ToSingle(Abox.Text);
-            double b = Convert.ToSingle(Bbox.Text);
-            double c = Convert.ToSingle(Cbox.Text);
-            double D = b*b-4*a*c;
-            double X1 = (-b + Math.Sqrt(D)) / (2*a);
-            double X2 = (-b - Math.Sqrt(D)) / (2 * a);
+            try
+            {
+                double a = Convert.ToSingle(Abox.Text);
+                double b = Convert.ToSingle(Bbox.Text);
+                double c = Convert.ToSingle(Cbox.Text);
+                double D = (b * b) - 4 * a * c;
+                double X1 = (-b + Math.Sqrt(D)) / (2 * a);
+                double X2 = (-b - Math.Sqrt(D)) / (2 * a);
 
-            
+                Dres.Text = Convert.ToString(D);
+                X1res.Text = Convert.ToString(X1);
+                X2res.Text = Convert.ToString(X2);
+            }
+            catch
+            {
+                MessageBox.Show("Что-то пошло не так");
+            }
 
         }
     }
